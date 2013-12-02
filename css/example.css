@@ -1,0 +1,185 @@
+body {
+	padding:10px 10px; 
+	margin:0; 
+	font-family:Tahoma, Geneva, sans-serif; 
+	background-color:#4e6fb4;
+/*	background-color:cornflowerblue;*/
+}
+
+#container {
+	background-color:#4e6fb4; 
+	padding:0px;
+}
+
+#header {
+	height:150px;
+	background-color: #4e6fb4;
+}
+
+#website {
+	font-size:30px; 
+	background:url(../img/header.jpg) no-repeat; 
+	height:100px; 
+	padding:50px 0 0 30px;
+}
+
+#website a {
+	color:#FFFFFF; 
+	text-decoration:none;
+}
+
+#description {
+	float:right; 
+	font-size:18px; 
+	color:#FFFFFF; 
+	padding:60px 30px 0 0;
+}
+
+#menu {
+	height:40px; 
+	background-color:black; 
+	margin-top:0px;
+}
+
+#menu ul {
+	margin:0; 
+	padding:0;
+}
+
+#menu li {
+	list-style:none; 
+	float:left; 
+	background:url(../img/menu_border.jpg) right no-repeat;
+	background-color:black;
+}
+
+#menu a {
+	float:left; 
+	height:20px; 
+	padding:10px 30px; 
+	color:#FFFFFF; 
+	font-size:15px; 
+	font-weight:bold; 
+	text-decoration:none; 
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#menu a:hover {
+	background-color:cornflowerblue;
+}
+
+#main {
+	float:left; 
+	width:100%; 
+	margin:5px 0; 
+	background: #8E8EA3; 
+	color: #ffffff;
+	font-size:11px;
+}
+
+/*#main a {
+	color:#fff;
+	color:#3C330E;
+}*/
+
+#main a:hover {
+	color:#000000;
+}
+
+#main br {
+	line-height:8px;
+}
+
+#sidebar {
+	width:160px; 
+	float:right; 
+	font-size:14px;
+	padding:0 30px 10px 30px; 
+}
+
+#sidebar h3 {
+	font-size:17px; 
+	font-weight:normal;
+	color:#ffffff;
+	padding:7px 12px;
+	background:#4e6fb4;
+	margin:20px 0 5px 0;
+}
+
+#sidebar ul {
+	margin:0; 
+	padding:0; 
+	border-top:1px solid #E5E3DC;
+}
+
+#sidebar li {
+	list-style:none; 
+	border-bottom:1px solid #E5E3DC;
+}
+
+#sidebar li a {
+	color:#120F04; 
+	text-decoration:none; 
+	padding:3px; 
+	display:block;
+}
+
+#sidebar li a:hover {
+	background-color:#4e6fb4;
+	color:#ffffff;
+}
+
+#main-text {
+	font-size:14px;
+	line-height:18px; 
+	margin-right:225px; 
+	padding:10px 30px 30px 30px;
+
+}
+
+#main-text h1 {
+	font-size:22px; 
+	font-weight:normal; 
+	margin:20px 0 10px 0;
+}
+
+#main-text h2 {
+	font-size:19px; 
+	font-weight:normal; 
+	margin:20px 0 10px 0;
+}
+
+#text ul {
+	padding:0; 
+	margin:8px 0;
+}
+
+#main-text li {
+	margin-left:40px;
+}
+
+#footer {
+	height:40px; 
+	color:#FFFFFF; 
+	font-size:11px; 
+	background:black; 
+	clear:both;
+}
+
+#footer a {
+	color:#FFFFFF;
+}
+
+#footer a:hover {
+	color:#F3EACD;
+}
+
+#footer_left {
+	float:left; 
+	padding:13px 0 0 30px;
+}
+
+#footer_right {
+	float:right; 
+	padding:13px 30px 0 0;
+}
